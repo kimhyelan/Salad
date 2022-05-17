@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*googleips 웹폰트 css 파일 불러오기*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+/* 저장된 글꼴 파일 선언*/
+@font-face { font-family : NanumSquareRound;  font-weight:300;  
+                src : url(../font/NanumSquareRoundL.ttf); }
+@font-face { font-family: NanumSquareRound; font-weight: 400;
+                src: url(../font/NanumSquareRoundR.ttf); }
+@font-face { font-family: NanumSquareRound; font-weight: 700;
+                src: url(../font/NanumSquareRoundB.ttf); }
+@font-face { font-family: NanumSquareRound; font-weight: 900;
+                src: url(../font/NanumSquareRoundEB.ttf); }
+
+* {margin:0; padding:0;}
+html{font-size: 18px;}
+body{ font-size:18px;
+      color:#3D3B3B;
+      font-family: 'NanumSquareRound', sans-serif; }
+ul, ol, li{list-style-type:none}
+img, fieldset{border:none;vertical-align: middle;outline:0;}
+hr {clear:both;border:none} /*  */
+a {color:inherit;text-decoration:none;outline:0;}
+table{border-collapse:collapse}
+input, textarea {color:inherit;font-size:inherit;
+       font-family:inherit;
+       vertical-align: middle;}
+button{outline:0;}
